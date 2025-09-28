@@ -29,7 +29,8 @@ Statistics is the science of collecting, analyzing, interpreting, and presenting
 Data Collection → Data Cleaning → Exploratory Analysis → Statistical Modeling → Interpretation → Decision Making
 ```
 
-**📊 IMAGE SUGGESTION**: Flowchart showing the data science pipeline with statistics at each stage
+![Data Science Pipeline](images/data-science-pipeline.png)
+*Flowchart showing the data science pipeline with statistics at each stage*
 
 ---
 
@@ -48,7 +49,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Step 3: Mean = 30/5 = 6
   - **Real-world**: Average test score of 5 students
 
-**📊 IMAGE SUGGESTION**: Bar chart showing the data points and the mean line
+![Mean Calculation](images/mean-calculation.png)
+*Bar chart showing the data points and the mean line*
 
 #### Median
 - **Definition**: Middle value when data is ordered
@@ -59,7 +61,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - **Even number of values**: [1, 3, 5, 7, 9, 11] → Median = (5+7)/2 = 6
   - **Real-world**: Middle income in a neighborhood
 
-**📊 IMAGE SUGGESTION**: Box plot showing median line and quartiles
+![Median Box Plot](images/median-boxplot.png)
+*Box plot showing median line and quartiles*
 
 #### Mode
 - **Definition**: Most frequently occurring value
@@ -70,7 +73,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Mode = 2 (appears 3 times)
   - **Real-world**: Most common shoe size sold
 
-**📊 IMAGE SUGGESTION**: Histogram showing frequency distribution with mode highlighted
+![Mode Histogram](images/mode-histogram.png)
+*Histogram showing frequency distribution with mode highlighted*
 
 ### Measures of Variability
 
@@ -94,7 +98,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Step 4: Divide by n: 40/5 = 8
   - **Real-world**: How spread out are house prices in a neighborhood
 
-**📊 IMAGE SUGGESTION**: Scatter plot with mean line and deviation arrows
+![Variance Calculation](images/variance-scatter.png)
+*Scatter plot with mean line and deviation arrows*
 
 #### Standard Deviation
 - **Formula**: σ = √σ² (population) or s = √s² (sample)
@@ -105,7 +110,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - **Interpretation**: On average, data points are 2.83 units away from the mean
   - **Real-world**: Average deviation of test scores from the mean
 
-**📊 IMAGE SUGGESTION**: Normal distribution curve with standard deviation bands
+![Standard Deviation](images/std-dev-curve.png)
+*Normal distribution curve with standard deviation bands*
 
 #### Interquartile Range (IQR)
 - **Formula**: IQR = Q3 - Q1
@@ -118,7 +124,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - **Outlier boundaries**: Q1 - 1.5×IQR = 5 - 15 = -10, Q3 + 1.5×IQR = 15 + 15 = 30
   - **Real-world**: Middle 50% of salaries in a company
 
-**📊 IMAGE SUGGESTION**: Box plot with IQR highlighted and outlier points marked
+![IQR Box Plot](images/iqr-boxplot.png)
+*Box plot with IQR highlighted and outlier points marked*
 
 ### Five-Number Summary
 1. **Minimum**: Smallest value
@@ -132,7 +139,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
 - Min = 1, Q1 = 5, Median = 10, Q3 = 15, Max = 19
 - **Real-world**: Summary of student test scores (1-19 scale)
 
-**📊 IMAGE SUGGESTION**: Box plot with all five numbers labeled
+![Five Number Summary](images/five-number-summary.png)
+*Box plot with all five numbers labeled*
 
 ---
 
@@ -145,14 +153,16 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
 - **Example**: Rolling a die → S = {1, 2, 3, 4, 5, 6}
 - **Real-world**: All possible outcomes of flipping a coin → S = {Heads, Tails}
 
-**📊 IMAGE SUGGESTION**: Venn diagram showing sample space
+![Sample Space](images/sample-space-venn.png)
+*Venn diagram showing sample space*
 
 #### Event
 - **Definition**: Subset of sample space
 - **Example**: Getting an even number → E = {2, 4, 6}
 - **Real-world**: Getting a grade of A or B → E = {A, B}
 
-**📊 IMAGE SUGGESTION**: Venn diagram showing event as subset of sample space
+![Event Subset](images/event-subset-venn.png)
+*Venn diagram showing event as subset of sample space*
 
 #### Probability Rules
 1. **0 ≤ P(A) ≤ 1** (Probability is between 0 and 1)
@@ -168,7 +178,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - P(both) = 1/6 = 0.17
   - P(even OR divisible by 3) = 0.5 + 0.33 - 0.17 = 0.66
 
-**📊 IMAGE SUGGESTION**: Venn diagram showing overlapping events with probabilities
+![Overlapping Events](images/overlapping-events-venn.png)
+*Venn diagram showing overlapping events with probabilities*
 
 ### Conditional Probability
 - **Formula**: P(A|B) = P(A ∩ B) / P(B)
@@ -182,7 +193,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
     - P(A|B) = 0.48 / 0.6 = 0.8
   - **Real-world**: P(rain|cloudy sky) = probability of rain given cloudy conditions
 
-**📊 IMAGE SUGGESTION**: Tree diagram showing conditional probabilities
+![Conditional Probability Tree](images/conditional-probability-tree.png)
+*Tree diagram showing conditional probabilities*
 
 ### Independence
 - **Definition**: Events A and B are independent if P(A ∩ B) = P(A) × P(B)
@@ -195,7 +207,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - These are independent events
   - **Real-world**: Flipping a coin and rolling a die are independent
 
-**📊 IMAGE SUGGESTION**: Two separate probability trees showing independence
+![Independent Events](images/independent-events-trees.png)
+*Two separate probability trees showing independence*
 
 ### Bayes' Theorem
 - **Formula**: P(A|B) = P(B|A) × P(A) / P(B)
@@ -210,7 +223,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - P(A|B) = 0.95 × 0.01 / 0.1085 = 0.0875
   - **Interpretation**: Only 8.75% chance of having disease despite positive test!
 
-**📊 IMAGE SUGGESTION**: Decision tree showing Bayes' theorem calculation
+![Bayes Theorem](images/bayes-theorem-tree.png)
+*Decision tree showing Bayes' theorem calculation*
 
 ---
 
@@ -231,7 +245,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - P(X = 7) = 120 × 0.5^10 = 120 × 0.000977 = 0.117
   - **Real-world**: Number of successful sales calls out of 20 attempts
 
-**📊 IMAGE SUGGESTION**: Binomial distribution histogram with n=10, p=0.5
+![Binomial Distribution](images/binomial-distribution.png)
+*Binomial distribution histogram with n=10, p=0.5*
 
 #### Poisson Distribution
 - **Parameter**: λ (rate)
@@ -246,7 +261,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - P(X = 5) = (243 × 0.0498) / 120 = 0.1008
   - **Real-world**: Number of emails received per day, accidents at an intersection
 
-**📊 IMAGE SUGGESTION**: Poisson distribution curve with λ=3
+![Poisson Distribution](images/poisson-distribution.png)
+*Poisson distribution curve with λ=3*
 
 ### Continuous Distributions
 
@@ -264,7 +280,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - 99.7% of men are between 61-79 inches tall (μ ± 3σ)
   - **Real-world**: Test scores, heights, weights, measurement errors
 
-**📊 IMAGE SUGGESTION**: Normal distribution curve with 68-95-99.7 rule bands
+![Normal Distribution Rule](images/normal-distribution-rule.png)
+*Normal distribution curve with 68-95-99.7 rule bands*
 
 #### Standardization
 - **Z-score**: z = (x - μ) / σ
@@ -275,7 +292,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Student A performed better relative to their class (higher z-score)
   - **Real-world**: Comparing SAT scores to ACT scores
 
-**📊 IMAGE SUGGESTION**: Two normal curves with z-scores marked
+![Z-Score Comparison](images/z-score-comparison.png)
+*Two normal curves with z-scores marked*
 
 ---
 
@@ -292,7 +310,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Frequencies: 2, 2, 3, 2
   - **Real-world**: Distribution of exam scores, income levels
 
-**📊 IMAGE SUGGESTION**: Histogram with proper binning and frequency labels
+![Histogram Example](images/histogram-example.png)
+*Histogram with proper binning and frequency labels*
 
 #### Box Plot
 - **Use**: Five-number summary, outlier detection
@@ -301,7 +320,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Shows median, quartiles, and outliers clearly
   - **Real-world**: Comparing salaries across departments, test scores by grade level
 
-**📊 IMAGE SUGGESTION**: Box plot with all components labeled
+![Box Plot Components](images/boxplot-components.png)
+*Box plot with all components labeled*
 
 #### Scatter Plot
 - **Use**: Relationship between two variables
@@ -311,7 +331,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Positive correlation: More study = higher scores
   - **Real-world**: Height vs weight, temperature vs ice cream sales
 
-**📊 IMAGE SUGGESTION**: Scatter plot with correlation line and R² value
+![Scatter Plot Correlation](images/scatter-plot-correlation.png)
+*Scatter plot with correlation line and R² value*
 
 #### Bar Chart
 - **Use**: Categorical data comparison
@@ -321,7 +342,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
   - Values: [85, 92, 78, 88] (average grades)
   - **Real-world**: Sales by product category, votes by political party
 
-**📊 IMAGE SUGGESTION**: Bar chart with proper spacing and labels
+![Bar Chart Example](images/bar-chart-example.png)
+*Bar chart with proper spacing and labels*
 
 ### Best Practices
 1. **Choose appropriate plot type**
@@ -330,7 +352,8 @@ Data Collection → Data Cleaning → Exploratory Analysis → Statistical Model
 4. **Avoid misleading visualizations**
 5. **Consider your audience**
 
-**📊 IMAGE SUGGESTION**: Side-by-side comparison of good vs bad visualizations
+![Visualization Comparison](images/visualization-comparison.png)
+*Side-by-side comparison of good vs bad visualizations*
 
 ---
 
